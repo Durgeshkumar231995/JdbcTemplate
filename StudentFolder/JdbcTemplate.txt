@@ -1,0 +1,23 @@
+Class Student {
+Integer Id;
+String email;
+String name;
+String age;
+double salary;
+String department;
+Long pincode;
+LocalDateTime currentTime;
+LocalDateTime updateTime;
+String town;
+String state;
+String country;
+
+}
+
+Spring boot application with RestApi Crud operation  with JdbcTemplate ,
+ use above poco Class for application to develop  this endpoint,  use mysql database, 
+  use DTO for all , exception handling,  constant sql query  formal for well structure & if user is giving some with blank value then should override with existing database Department details & also implement all possible exception handling at each level & with global exception handling 
+
+date will come from pathvariable then substract from updateTime
+ api findDurationPeriod 
+ & in optput we need  updateTime minus 2 week,  day minus,4 week minus, in key value pair
